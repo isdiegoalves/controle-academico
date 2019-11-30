@@ -1,5 +1,3 @@
-<img src="https://raw.githubusercontent.com/NilavPatel/Ng-Prime/master/src/assets/images/logo-large.png" width="300" height="100">
-
 # Angular 8 + PrimeNg
 (Please check branch Ng7 for angular 7 version)
 ````
@@ -40,15 +38,3 @@ Run below commands in console
 Chrome, Firefox, Edge, IE 11/10 (except theme chooser as css variables not supported in IE)
 ````
 
-### Login page
-
-![image login](https://raw.githubusercontent.com/NilavPatel/Ng-Prime/master/src/assets/images/login-page.png)
-
-### Details page
-
-![image dashboard](https://raw.githubusercontent.com/NilavPatel/Ng-Prime/master/src/assets/images/details-page.png)
-
-### Responsive layout for desktop, tablet and mobile
-
-![image dashboard](https://raw.githubusercontent.com/NilavPatel/Ng-Prime/master/src/assets/images/laptop.png)
-![image dashboard](https://raw.githubusercontent.com/NilavPatel/Ng-Prime/master/src/assets/images/tablet.png)

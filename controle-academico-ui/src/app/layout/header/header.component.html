@@ -12,23 +12,19 @@
         <div class="ng-header-right-item right">
             <a class="icon" (click)="logout()"><i class="fa fa-sign-out-alt"></i></a>
         </div>
-        <div class="ng-header-right-item right" (click)="themeChooser.toggle($event)">
-            <a class="icon"><i class="fa fa-cog"></i></a>
-        </div>
         <div class="ng-header-right-item right" (click)="showNotificationSidebar()">
             <a class="icon"><i class="fa fa-bell"></i><span class="badge">5</span></a>
         </div>
         <div class="ng-header-right-item right" (click)="userdetails.toggle($event)">
-            <a class="icon"><span [innerHtml]="user.emailId" class="user-name"></span><i class="fa fa-user"></i></a>
+            <a class="icon"><span [innerHtml]="user.name" class="user-name"></span><i class="fa fa-user"></i></a>
         </div>
     </div>
 </div>
 
 <!-- user detials overlay panel -->
 <p-overlayPanel #userdetails>
-    <div><b>User Name: </b><i [innerHtml]="user.userName"></i></div>
-    <div><b>Email Id: </b><i [innerHtml]="user.emailId"></i></div>
-    <div><b>Birthdate: </b><i [innerHtml]="user.birthDate | date:'dd/MM/yyyy'"></i></div>
+    <div><b>Identificação: </b><i [innerHtml]="user.userName"></i></div>
+    <div><b>E-mail: </b><i [innerHtml]="user.emailId"></i></div>
 </p-overlayPanel>
 
 <!-- notifications sidebar -->
@@ -38,26 +34,3 @@
         <div><i>Created On: </i><i [innerHtml]="notification.createdOn | date:'dd/MM/yyyy'"></i></div>
     </div>
 </p-sidebar>
-
-<!-- theme chooser overlay panel -->
-<p-overlayPanel #themeChooser>
-    Select Theme:
-    <div class="ui-g">
-        <div class="ui-g-3">
-            <button pButton type="button" (click)="selectTheme('theme-1')"
-                style="background-image: -webkit-gradient(linear, left top, right top, from(#517fa4), to(#243949));"></button>
-        </div>
-        <div class="ui-g-3">
-            <button pButton type="button" (click)="selectTheme('theme-2')"
-                style="background-image: -webkit-gradient(linear, left top, right top, from(#39e2c9), to(#2d97cb));"></button>
-        </div>
-        <div class="ui-g-3">
-            <button pButton type="button" (click)="selectTheme('theme-3')"
-                style="background-image: -webkit-gradient(linear, left top, right top, from(#009688), to(#00897B));"></button>
-        </div>
-        <div class="ui-g-3">
-            <button pButton type="button" (click)="selectTheme('theme-4')"
-                style="background-image: -webkit-gradient(linear, left top, right top, from(#f2c58c), to(#f2918b));"></button>
-        </div>
-    </div>
-</p-overlayPanel>

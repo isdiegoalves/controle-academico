@@ -81,7 +81,7 @@ body {
     overflow: auto;
     height: calc(100% - 100px);
     padding: 10px;
-    padding-left: 240px;
+    padding-left: 17em;
 }
 
 .hidden-menu-content {
@@ -168,7 +168,7 @@ body {
     text-align: center;
     height: 50px;
     width: 50px;
-    background-color: var(--menubar-background);    
+    background-color: var(--menubar-background);
 }
 
 .toggle-menu-button .icon {

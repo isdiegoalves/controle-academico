@@ -1,11 +1,11 @@
 {
-    "Ng-PrimeLogin": "Ng-Prime Login",
-    "Login": "Login",
-    "Register": "Register",
-    "WelcomeMessage": "welcome to NG-prime.",
-    "Home": "Home",
-    "Employees": "Employees",
-    "Departments": "Departments",
-    "AboutUs": "About Us",
-    "ContactUs": "Contact Us"
+  "Ng-PrimeLogin": "Controle Acadêmico Login",
+  "Login": "Entrar",
+  "Register": "Registrar",
+  "WelcomeMessage": "Bem vindo ao sistema de Controle Acadêmico.",
+  "Home": "Inicial",
+  "Employees": "Employees",
+  "Departments": "Departments",
+  "AboutUs": "About Us",
+  "ContactUs": "Contact Us"
 }

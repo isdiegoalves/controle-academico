@@ -31,11 +31,11 @@ export class LoginComponent implements OnInit {
 
   ngOnInit() {
     this.userName = "";
-    this.password = "";    
+    this.password = "";
     this.locale = this.sessionService.getItem("ng-prime-language");
   }
 
-  onClickLogin() {    
+  onClickLogin() {
     let user: User = this.userService.getUserByUserNameAndPassword(this.userName, this.password);
     if (user) {
       this.userContextService.setUser(user);
@@ -49,7 +49,7 @@ export class LoginComponent implements OnInit {
   onLanguageChange($event) {
     this.locale = $event.target.value;
     if (this.locale == undefined || this.locale == null || this.locale.length == 0) {
-      this.locale = "en";
+      this.locale = "pt";
     }
     // the lang to use, if the lang isn't available, it will use the current loader to get them
     this.translate.use(this.locale);

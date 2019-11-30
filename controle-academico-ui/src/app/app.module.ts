@@ -7,7 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MessageService } from 'primeng/api';
 // app related
 import { AppComponent } from './app.component';
-import { AuthGuard } from './core/gaurds/auth.gaurd';
+import { AuthGuard } from './core/guards/auth.guard';
 import { AppRoutingModule } from './app.routing.module';
 import { LayoutComponent } from './layout/layout.component';
 import { MenuComponent } from './layout/menu/menu.component';
